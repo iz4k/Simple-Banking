@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>SimpleBankingClient</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <h1>SimpleBankingClient</h1>
+
+  <label for="userid">User id</label>
+  <input type="text" id="userid">
+  </br>
+  <label for="withdraw">Amount</label>
+  <input type="number" id="withdraw">
+  <button id="withdrawSend">Withdraw</button>
+  </br>
+  <label for="deposit">Amount</label>
+  <input type="number" id="deposit">
+  <button id="depositSend">Deposit</button>
+  </br>
+
+  <label for="username">Username</label>
+  <input type="text" id="username">
+  <label for="balance">Balance</label>
+  <input type="text" id="balance">
+  <button id="addUser">Add user</button>
+  </br>
+  <button id="deleteUser">Delete user</button>
+  </br>
+  <button id="listUsers">List all users</button>
+
+  <section id="content"></section>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
